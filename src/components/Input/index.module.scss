@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    .input {
+        border: none;
+        border: 1px solid #ccc;
+        padding-left: 15px;
+        width: 100%;
+        height: 30px;
+        outline-style: none;
+    }
+    .btn {
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: #5c99da;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        &:hover {
+            cursor: pointer;
+        }
+        &.disable {
+            background-color: #7d7b7b;
+            &:hover {
+                cursor: not-allowed;
+            }
+        }
+    }
+}

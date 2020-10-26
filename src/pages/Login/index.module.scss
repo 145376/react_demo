@@ -1,0 +1,24 @@
+.login{
+    width:100%;
+    height:100%;
+    background-color: skyblue;
+    overflow: hidden;
+    .panel{
+        width: 400px;
+        height: 350px;
+        margin: 0 auto;
+        margin-top: 100px;
+        background-color: rgba(255,255,255,.5);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        Form{
+            a{
+                margin-left: 180px;
+                color:red;
+            }
+        }
+    }
+}

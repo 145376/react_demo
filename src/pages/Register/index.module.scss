@@ -1,0 +1,43 @@
+// :global {
+.register {
+    height: 100%;
+    width: 100%;
+    background: url('../../static//images//background.jpg') no-repeat top center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .panel {
+        width: 600px;
+        height: 400px;
+        background-color: #fff;
+        margin: 0 auto;
+        margin-top: 100px;
+        .item {
+            padding: 8px 20px;
+            .form {
+                margin-top: 50px;
+                .step1,
+                .step2 {
+                    div {
+                        &:first-child {
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+                .step3 {
+                    text-align: center;
+                    font-size: 20px;
+                    p {
+                        span {
+                            color: skyblue;
+                        }
+                    }
+                }
+                .btn {
+                    width: 50%;
+                    margin: 50px 0 0 140px;
+                }
+            }
+        }
+    }
+}
+// }

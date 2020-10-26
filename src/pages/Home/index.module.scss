@@ -1,0 +1,73 @@
+.home {
+    height: 100%;
+    width: 100%;
+    .container {
+        height: 100%;
+        .sider {
+            width: 200px;
+            background-color: #333;
+            &.retract {
+                flex: 0 0 100px !important;
+                min-width: 0 !important;
+            }
+            .side-head {
+                height: 64px;
+                line-height: 64px;
+                background-color: rgba(0, 0, 0, 0.7);
+                text-align: center;
+                overflow: hidden;
+                color: #1890ff;
+                font-size: 24px;
+            }
+            .side-body {
+                padding-left: 15px;
+                color: #fff;
+                .user {
+                    height: 100px;
+                    display: flex;
+                    align-items: center;
+                    .info {
+                        margin-left: 10px;
+                        p {
+                            &:first-child {
+                                font-weight: 700;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                .menu {
+                    p {
+                        font-size: 14px;
+                        color: #998989;
+                    }
+                    ul {
+                        margin-top: 20px;
+                        padding-left: 25px;
+                        li {
+                            font-size: 18px;
+                            margin-bottom: 25px;
+                            span {
+                                &:first-child {
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            .header-left {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
